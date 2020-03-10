@@ -4,7 +4,7 @@ next: ./foreword.md
 ---
 # Scope & Closures
 
-<img src="images/cover.png" width="300">
+<img src="/images/cover.png" width="300">
 
 -----
 
