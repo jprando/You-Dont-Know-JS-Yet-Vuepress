@@ -4,7 +4,7 @@ next: /get-started/foreword.md
 ---
 # Get Started
 
-<img src="/images/cover.png" width="300">
+<img src="/images/get-started/cover.png" width="300">
 
 -----
 

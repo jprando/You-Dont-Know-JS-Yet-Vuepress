@@ -1,5 +1,6 @@
 ---
 title: Get Started
+prev: /get-started/
 ---
 # Get Started
 

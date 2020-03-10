@@ -1,0 +1,9 @@
+{
+  "name": "You Dont Know JS Yet",
+  "short_name": "ydkjsy",
+  "start_url": ".",
+  "lang": "pt-BR",
+  "display": "standalone",
+  "background_color": "#fff",
+  "description": "You Dont Know JS Yet - Vuepress Version"
+}
