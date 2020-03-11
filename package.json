@@ -8,7 +8,7 @@
   "scripts": {
     "dev": "vuepress dev",
     "build": "vuepress build",
-    "serve": "pm2 serve ./.vuepress/dist 8080",
+    "serve": "pm2 serve ./.vuepress/dist 8080 && pm2 log",
     "log":"pm2 log",
     "stop": "pm2 delete all"
   },

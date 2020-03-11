@@ -4,6 +4,5 @@ WORKDIR /app
 RUN git clone https://github.com/jprando/You-Dont-Know-JS-Yet-Vuepress.git /app
 RUN yarn
 RUN yarn build
-RUN yarn serve
 ENTRYPOINT ["yarn"]
-CMD ["log"]
+CMD ["serve"]
