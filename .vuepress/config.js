@@ -16,7 +16,15 @@ module.exports = {
   markdown: {
     lineNumbers: true
   },
-  plugins: ['@vuepress/pwa'],
+  plugins: [
+    [
+      '@vuepress/pwa',
+      {
+        serviceWorker: true,
+        updatePopup: true
+      }
+    ]
+  ],
   serviceWorker: true,
   themeConfig: {
     logo: '/logo.png',
