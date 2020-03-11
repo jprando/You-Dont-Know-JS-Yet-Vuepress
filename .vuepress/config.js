@@ -17,7 +17,7 @@ module.exports = {
   },
   serviceWorker: true,
   themeConfig: {
-    logo: '/logojd.png',
+    logo: '/logo.png',
     sidebarDepth: 2,
     // displayAllHeaders: true,
     nav:[{text: 'Github', link: 'https://github.com/getify/You-Dont-Know-JS'}],
