@@ -12,6 +12,15 @@ module.exports = {
     ['link', { rel: 'icon', href: '/logo.png' }],
     ['link', { rel: 'manifest', href: '/manifest.webmanifest' }]
   ],
+  plugins: {   
+    '@vuepress/pwa' : {
+      serviceWorker: true,
+      updatePopup: {
+        message: 'Novo conteúdo disponível',
+        buttonText: 'Atualizar'
+      }
+    }
+  },
   markdown: {
     lineNumbers: true
   },
@@ -21,12 +30,6 @@ module.exports = {
     sidebarDepth: 2,
     // displayAllHeaders: true,
     nav:[{text: 'Github', link: 'https://github.com/getify/You-Dont-Know-JS'}],
-    sidebar: 'auto',
-    serviceWorker: {
-      updatePopup: {
-        message: 'Novo conteúdo disponível',
-        buttonText: 'Atualizar'
-      }
-    }
+    sidebar: 'auto'
   }
 }

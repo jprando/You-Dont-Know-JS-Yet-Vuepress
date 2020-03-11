@@ -1,0 +1,36 @@
+Arguments: 
+  C:\apps\nodejs\node.exe C:\Apps\Yarn\bin\yarn.js init
+
+PATH: 
+  C:\Apps\cmder\bin;C:\Apps\cmder\vendor\bin;C:\Apps\cmder\vendor\conemu-maximus5\ConEmu\Scripts;C:\Apps\cmder\vendor\conemu-maximus5;C:\Apps\cmder\vendor\conemu-maximus5\ConEmu;C:\Python27\;C:\Python27\Scripts;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Apps\Yarn\bin\;C:\apps\PuTTY\;c:\apps\BitviseSSHClient;C:\Apps\Aria2;C:\apps\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\jeudi\.cargo\bin;C:\apps\python\Scripts\;C:\apps\python\;C:\Users\jeudi\AppData\Local\Microsoft\WindowsApps;c:\apps\vscode\bin;C:\Users\jeudi\AppData\Local\Yarn\bin;C:\Users\jeudi\AppData\Roaming\npm;C:\Users\jeudi\.dotnet\tools;C:\Apps\cmder\vendor\git-for-windows\cmd;C:\Apps\cmder\vendor\git-for-windows\mingw64\bin;C:\Apps\cmder\vendor\git-for-windows\usr\bin;C:\Apps\cmder
+
+Yarn version: 
+  1.19.1
+
+Node version: 
+  12.13.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (C:\Apps\Yarn\lib\cli.js:136824:13)
+      at Interface.emit (events.js:210:5)
+      at Interface._ttyWrite (readline.js:887:16)
+      at ReadStream.onkeypress (readline.js:191:10)
+      at ReadStream.emit (events.js:210:5)
+      at emitKeys (internal/readline/utils.js:433:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1153:36)
+      at ReadStream.emit (events.js:210:5)
+      at addChunk (_stream_readable.js:308:12)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
