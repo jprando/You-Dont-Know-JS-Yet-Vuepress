@@ -10,17 +10,9 @@ module.exports = {
     ['meta', { name: 'author', content: 'Jeudi Prando' }],
     ['meta', { name: 'contact', content: 'jeudiprando@gmail.com' }],
     ['link', { rel: 'icon', href: '/logo.png' }],
-    ['link', { rel: 'manifest', href: '/manifest.webmanifest' }]
+    ['link', { rel: 'manifest', href: '/manifest.json' }]
   ],
-  plugins: {   
-    '@vuepress/pwa' : {
-      serviceWorker: true,
-      updatePopup: {
-        message: 'Novo conteúdo disponível',
-        buttonText: 'Atualizar'
-      }
-    }
-  },
+  plugins: ['@vuepress/pwa'],
   markdown: {
     lineNumbers: true
   },
