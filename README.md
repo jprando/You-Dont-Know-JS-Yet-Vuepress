@@ -17,7 +17,8 @@ sidebar: false
 ---
 # You Don't Know JS Yet (book series) - 2nd Edition
 
-This is a series of books diving deep into the core mechanisms of the JavaScript language.
+This is a series of books diving deep into the core mechanisms of the JavaScript language.  
+teste 123.
 
 **To read more about the motivations and perspective behind this book series, check out the [Preface](preface.md).**
 
