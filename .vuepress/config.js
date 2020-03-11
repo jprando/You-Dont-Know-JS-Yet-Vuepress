@@ -9,6 +9,7 @@ module.exports = {
     ['meta', { name: 'rating', content: 'general' }],
     ['meta', { name: 'author', content: 'Jeudi Prando' }],
     ['meta', { name: 'contact', content: 'jeudiprando@gmail.com' }],
+    ['link', { rel: 'icon', href: '/logo.png' }],
     ['link', { rel: 'manifest', href: '/manifest.webmanifest' }]
   ],
   markdown: {
