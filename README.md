@@ -19,6 +19,8 @@ sidebar: false
 
 This is a series of books diving deep into the core mechanisms of the JavaScript language.  
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7334da28-29dd-4673-bf84-7b478de6f34d/deploy-status)](https://app.netlify.com/sites/ydkjsy/deploys)
+
 **To read more about the motivations and perspective behind this book series, check out the [Preface](preface.md).**
 
 ## Premier Sponsor
