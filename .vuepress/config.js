@@ -1,6 +1,6 @@
 module.exports = {
   title: 'You Dont Know JS Yet',
-  description: '2nd Edition - book series',
+  description: '2nd Edition - Book Series',
   head: [
     ['meta', { httpEquiv: 'Content-Language', content: 'pt-br' }],
     ['meta', { name: 'language', content: 'Portuguese' }],
@@ -9,19 +9,26 @@ module.exports = {
     ['meta', { name: 'rating', content: 'general' }],
     ['meta', { name: 'author', content: 'Jeudi Prando' }],
     ['meta', { name: 'contact', content: 'jeudiprando@gmail.com' }],
+    ['meta', { name: 'description', content: 'You Dont Know JS Yet - 2nd Edition - Vuepress Version' }],    
     ['link', { rel: 'icon', href: '/logo.png' }],
     ['link', { rel: 'manifest', href: '/manifest.json' }]
   ],
-  plugins: ['@vuepress/pwa'],
   markdown: {
     lineNumbers: true
   },
+  plugins: ['@vuepress/pwa'],
   serviceWorker: true,
   themeConfig: {
     logo: '/logo.png',
     sidebarDepth: 2,
     // displayAllHeaders: true,
     nav:[{text: 'Github', link: 'https://github.com/getify/You-Dont-Know-JS'}],
-    sidebar: 'auto'
+    sidebar: 'auto',
+    serviceWorker: {
+      updatePopup: {
+        message: 'Novo conteúdo disponível',
+        buttonText: 'Atualizar'
+      }
+    }    
   }
 }

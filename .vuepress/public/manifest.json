@@ -1,11 +1,12 @@
 {
   "name": "You Dont Know JS Yet",
-  "short_name": "ydkjsy",
+  "short_name": "YDKJSY",
   "start_url": ".",
   "lang": "pt-BR",
   "display": "standalone",
+  "theme_color": "#ff00",
   "background_color": "#fff",
-  "description": "You Dont Know JS Yet - Vuepress Version",
+  "description": "You Dont Know JS Yet - 2nd Edition - Vuepress Version",
   "icons": [
     {
       "src": "logo.png",
