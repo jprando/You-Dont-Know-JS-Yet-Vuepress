@@ -4,8 +4,8 @@
   "start_url": ".",
   "lang": "pt-BR",
   "display": "standalone",
-  "theme_color": "#000",
-  "background_color": "#fff",
+  "theme_color": "#fff",
+  "background_color": "#000",
   "description": "You Dont Know JS Yet - 2nd Edition - Vuepress Version",
   "icons": [
     {
